@@ -1,6 +1,6 @@
-# 3DRayTracer
+# 3D Ray Tracer
 
-A 3D ray tracer using compute shaders from OpenGL. Goal was to accomplish as realistic as possible renders.
+A real-time 3D ray tracer using OpenGL compute shaders. Goal was to accomplish as realistic as possible renders while maintaining it real-time.
 Features:
  - Reflective, diffuse and dielectric materials. 
  - Differently colored spheres and cuboids. 
@@ -9,7 +9,7 @@ Features:
  - Anti-aliasing.
  - Multiple differently colored source lights.
  
-BDRF takes incoming vector, reflecting it and mixing it with a random vector inside of a hemisphere at the intersection point. 
+Light is reflected by taking the incoming vector, reflecting it as if the material was 100% reflective and mixing it with a random vector inside of a hemisphere at the intersection point. The material determines how much the random vector offsets the reflective vector.
 
 ![](Images/image1.png)
 ![](Images/image2.png)
