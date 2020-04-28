@@ -11,6 +11,8 @@ Features:
  
 Light is reflected by taking the incoming vector, reflecting it as if the material was 100% reflective and mixing it with a random vector inside of a hemisphere at the intersection point. The material determines how much the random vector offsets the reflective vector.
 
+A GIF demonstrating the ray tracer. The GIF added some small artifacts which are not present in the ray tracer.
+![](Images/demo.gif)
 ![](Images/image1.png)
 ![](Images/image2.png)
 ![](Images/image3.png)
